@@ -6,12 +6,14 @@
             "name": "timerfix-linux.tar.gz",
             "platform": "linux",
             "archive": true,
+            "includes": ["timerfix.inc"],
             "plugins": ["timerfix.so"]
         },
         {
             "name": "timerfix-win32.zip",
             "platform": "windows",
             "archive": true,
+            "includes": ["timerfix.inc"],
             "plugins": ["timerfix.dll"]
         }
     ],
